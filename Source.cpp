@@ -7,7 +7,7 @@ int Merge(int a,int n)
   int i = 0;
   int j = n-1;
   int result = 0;
-  while(i<j)
+  while(i<=j)
   {
           if(a[i]==a[n-1])
           {
